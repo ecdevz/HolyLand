@@ -1,0 +1,31 @@
+{
+  "name": "v4",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A Vue.js project with Vite for a holi event in Nebula Institute of Technology",
+  "author": "Eshan Chathuranga",
+  "license": "PROPRIETARY",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "form-data": "^4.0.2",
+    "imgbb-uploader": "^1.5.1",
+    "js-cookie": "^3.0.5",
+    "qrcode-with-logos": "^1.1.1",
+    "vue": "^3.5.13",
+    "vue-qrcode": "^2.2.2",
+    "vue-qrcode-image": "^1.2.0",
+    "vue-qrcode-reader": "^5.7.1",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.11",
+    "vite-plugin-vue-devtools": "^7.7.1"
+  }
+}

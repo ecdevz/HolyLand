@@ -1,0 +1,27 @@
+@import './base.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Delius", serif;
+  background-image: url('../assets/images/bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url('../assets/images/bg-mobile.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+  }
+}

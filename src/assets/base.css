@@ -1,0 +1,77 @@
+:root {
+  --color-black: #000000;
+}
+
+.glow {
+  color: #ffffff;
+  text-shadow: 
+    1px 0px 1px #333, 0px 1px 1px #666, 
+    2px 1px 1px #333, 1px 2px 1px #666,
+    3px 2px 1px #333, 2px 3px 1px #666,
+    4px 3px 1px #333, 3px 4px 1px #666,
+    5px 4px 1px #333, 4px 5px 1px #666,
+    6px 5px 1px #333, 5px 6px 1px #666,
+    7px 6px 1px #333;
+}
+.close {
+  background-color: #fff; 
+  color: #202c2d;
+  text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+.otto {
+  text-shadow: 1px 1px 2px red,
+               2px 2px 2px orange,
+               3px 3px 2px yellow,
+               4px 4px 2px green,
+               5px 5px 2px blue,
+               6px 6px 2px indigo,
+               7px 7px 2px violet;
+}
+
+/*  buttons */
+.btn {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: #c4e201;
+}
+
+.btn > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover svg {
+  transform: translateX(5px);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
