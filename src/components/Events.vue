@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import Frame2 from '../assets/images/Frame2.svg';
 import Frame3 from '../assets/images/Frame3.svg';
 import Frame4 from '../assets/images/Frame4.svg';
 import Frame5 from '../assets/images/Frame5.svg';
@@ -30,7 +29,7 @@ export default {
         {
           name: "Unleash Your Inner Artist!",
           description:"Get ready to paint the each other! in a kaleidoscope of hues!  Our classic 'Throw Colours' game is the heart of Holi Land. We provide the vibrant, safe, and eco-friendly powders – you bring the energy!  Join friends and strangers alike in a joyous explosion of color, laughter, and pure, unadulterated fun. It's not just a game; it's a celebration of life and unity.  Let your inhibitions go and create a living masterpiece with every throw!",
-          image: Frame2,
+          image: Frame5,
         },
         {
           name: "Bounce to the Beat!",
