@@ -57,7 +57,8 @@
       <div class="form-i">
         <input type="text" placeholder="Full Name" v-model="fullName" required />
         <input type="text" placeholder="NIC Number" v-model="nicNumber" required />
-        <select name="batch" id="batch" v-model="batch">
+        <select name="batch" id="batch" v-model="batch" placeholder="Select your batch" required>
+          <option class="selected" value="" disabled selected>Select your batch</option>
           <option value="CAIT">CAIT</option>
           <option value="Foundation">Foundation</option>
           <option value="HND - DT">HND - DT</option>
@@ -326,6 +327,10 @@ input:focus {
   
   outline: none;
   color: #e1615b;
+}
+  .selected {
+  background-color: #e1615b;
+  color: white;
 }
 select {
   padding: 1rem;
