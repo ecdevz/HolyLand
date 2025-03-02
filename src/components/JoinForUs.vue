@@ -20,11 +20,15 @@
           <span>{{ location }}</span>
         </div>
         <div class="item">
+          <img width="50" height="50" src="https://img.icons8.com/stickers/50/calendar.png" alt="calendar"/>
+          <span>{{ date }}</span>
+        </div>
+        <div class="item">
           <img
             src="https://img.icons8.com/color/48/000000/clock--v1.png"
             alt="clock--v1"
           />
-          <span>{{ date }}</span>
+          <span>{{ time }}</span>
         </div>
         <div class="item">
           <img
@@ -50,8 +54,9 @@ export default {
   name: "JoinForUs",
   data() {
     return {
-      location: "NIT Ground, Walisara",
+      location: "SLTMNIT Ground, Walisara",
       date: "March 30, 2025",
+      time: "3.00 PM onwards",
       price: "Rs. 1000 per ticket",
       dj: {
         name: "DJ Nush",
