@@ -2,7 +2,7 @@
     <div class="footer">
         <a href="https://eshansky7.live">&copy; 2025 EC Dev. All rights reserved.</a>
         <div>
-            <router-link class="dash" to="/panel">Dashboard</router-link>
+            <router-link class="dash" to="/dashboard">Dashboard</router-link>
         </div>
     </div>
 </template>
